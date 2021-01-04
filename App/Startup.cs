@@ -7,7 +7,7 @@ namespace App
     public abstract class Startup
     {
         static private readonly string HOME = Environment.GetEnvironmentVariable("HOME");
-        static private readonly string DATA_FILE = $"{HOME}\\.todo";
+        static private readonly string DATA_FILE = $"{HOME}\\.todo\\data";
 
         public static ITodoRepository Configure()
         {
